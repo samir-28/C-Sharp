@@ -1,0 +1,47 @@
+# Ignore everything
+*
+<<<<<<< HEAD
+=======
+
+>>>>>>> 64599fd (Create .gitignore)
+# Allow this .gitignore file
+!.gitignore
+
+# Allow all folders so we can walk into them
+!*/
+!*/**/
+!*/**/
+
+# Allow all .cs files in all subfolders
+!*/**/*.cs
+
+# Ignore common .NET build/user files
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.dbmdl
+*.pdb
+*.exe
+*.dll
+*.app
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*.csproj.user
+
+
+
+
+=======
+*.csproj.user
+>>>>>>> 34da3db (C_sharp)
+=======
+*.csproj.user
+>>>>>>> 34da3dbb26d5ff7ccecf24a5c09b24ffd0eb5a73
+=======
+*.csproj.user
+>>>>>>> 64599fd (Create .gitignore)
