@@ -13,7 +13,7 @@ namespace MethodOverriding
 
     public class Dog : Animal 
     {
-        public override void Speak()  // override the base class method
+        public  override void Speak()  // override the base class method
         {
             Console.WriteLine("Dog Barks");
         }
